@@ -1,0 +1,10 @@
+name: Dialogue
+version: '1.0'
+main: fr.rudy.dialogue.Main
+api-version: '1.21'
+depend: [DataBaseAPI]
+
+commands:
+  dialogue:
+    description: Lance un dialogue avec un NPC
+    usage: /dialogue <npc> <étape>
